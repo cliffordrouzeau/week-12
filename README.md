@@ -17,5 +17,6 @@ had a promt with choices and different sql querys based on choices
 ```
 
 
+[link to demo] (https://drive.google.com/file/d/1mK16tFA3MFG5W444T4k1slcpHW24B8vn/view?usp=sharing)
 
 [link to repo] (https://github.com/cliffordrouzeau/week-12)
