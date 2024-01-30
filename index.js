@@ -74,7 +74,7 @@ function questions() {
     },
     {
       name: "department_id",
-      message: "Which department does the role belong to?",
+      message: "What department id does the role belong to?",
     }
   ]).then(res => {
     return login.query("INSERT INTO role (title,salary,department_id) VALUES (:title, :salary, :department_id)", {
@@ -127,7 +127,7 @@ function questions() {
     },
     {
       name: "managerId",
-      message: "What is the managers id? (optional)"
+      message: "What is the managers id? "
     }
   ]).then(res => {
     return login.query("INSERT INTO employee (first_name,last_name,role_id,manager_id) VALUES (:first_name,:last_name,:role_id,:manager_id)", {
